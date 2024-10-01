@@ -2,10 +2,14 @@ package Project;
 
 import java.io.IOException;
 
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import SeleniumAutomation.SeleniumAutomation.Basetest;
@@ -19,12 +23,33 @@ public class Mainfile extends Basetest {
 	String password ="Jeran11@";
 	String url = "https://demo.nopcommerce.com/";
 	
+//	ExtentTest logger;
+//	ExtentReports extent;
+	
 	@BeforeTest
 	
 	public void openURL() {
 		launchBrowser();
 		driver.get(url);
+		
+		
 	}	
+	
+	
+/*	@AfterMethod
+
+	public void aftermymethod(ITestResult result)
+	{
+		if(result.getStatus()==ITestResult.FAILURE)
+		{
+			logger.fail(result.getThrowable().getMessage());
+		}
+		else
+		{
+			logger.pass("PASSED");
+		}
+		extent.flush();
+	}    */
 
 	
 	@Test()
@@ -89,7 +114,7 @@ public class Mainfile extends Basetest {
 		ai.clicklogout();		
 	}  */
 	
-/*	@Test(dependsOnMethods="login")
+	@Test(dependsOnMethods="login")
 	
 	public void nokialumina() throws InterruptedException
 	{
@@ -110,19 +135,19 @@ public class Mainfile extends Basetest {
 //		Thread.sleep(5000);
 		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.enterlastname();
+		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.entermail();
+		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.selectcountry();
+		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.entercity();
+		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.enteraddress();
+		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.enterpostalcode();
+		nl.enterFirstname();
 		Thread.sleep(3000);
-		nl.enternumber();
+		nl.enterFirstname();
 		Thread.sleep(3000);
 		nl.selectcontinuebutton1();
 		Thread.sleep(5000);
@@ -138,7 +163,7 @@ public class Mainfile extends Basetest {
 		
 		
 		
-	}     */
+	}     
 	
 	
 /*	@Test(dependsOnMethods="login")
@@ -222,7 +247,7 @@ public class Mainfile extends Basetest {
 		Thread.sleep(5000);
 		lp.verifyappleicam();
 		Thread.sleep(5000);
-	}    */
+	}    
 	
 	@Test(dependsOnMethods="login")
 	
@@ -235,6 +260,6 @@ public class Mainfile extends Basetest {
 		Thread.sleep(5000);
 		
 		
-	}
+	}   */
 
 }

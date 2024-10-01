@@ -23,6 +23,7 @@ public class Clickproduct extends Basesetup {
 
 	By Zara=By.xpath("//*[@id=\"products\"]/div[1]/div[2]/div[1]/div/div/button[2]");
 	By Adidas=By.xpath("//*[@id=\"products\"]/div[1]/div[2]/div[2]/div/div/button[2]");
+	//By Adidas=By.xpath("//*[@id=\"products\"]/div[1]/div[2]/div[2]/div/div/button[2]");
 	 
 	 
 	

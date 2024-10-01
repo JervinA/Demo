@@ -7,7 +7,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="letsshop.Mainfile"/>
-      
-    </classes>
+     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	import com.aventstack.extentreports.ExtentReports;
 	import com.aventstack.extentreports.ExtentTest;
 	import com.aventstack.extentreports.Status;
-	import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+//	import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 	public class ExtentReportExample {
 	    WebDriver driver;
@@ -21,9 +21,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 	    @BeforeMethod
 	    public void setUp() {
-	        ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/extentReport.html");
+	     //   ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/extentReport.html");
 	        extent = new ExtentReports();
-	        extent.attachReporter(reporter);
+	  //      extent.attachReporter(reporter);
 	        logger = extent.createTest("MyTest");
 	        System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();

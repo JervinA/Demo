@@ -1,0 +1,455 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for SeleniumAutomation:SeleniumAutomation:jar:0.0.1
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.aventstack:extentreports:jar -> version 5.1.1 vs 4.1.5 @ line 86, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------< SeleniumAutomation:SeleniumAutomation >----------------
+[INFO] Building SeleniumAutomation 0.0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SeleniumAutomation ---
+[INFO] Deleting C:\Users\c.JERVIN\eclipse-workspace\SeleniumAutomation\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SeleniumAutomation ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SeleniumAutomation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 49 source files to C:\Users\c.JERVIN\eclipse-workspace\SeleniumAutomation\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java: C:\Users\c.JERVIN\eclipse-workspace\SeleniumAutomation\src\main\java\SeleniumAutomation\SeleniumAutomation\Extentreport.java uses or overrides a deprecated API.
+[WARNING] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/IRCTC_sample.java:[20,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Loginfile.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Drivermanager.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Drivermanager.java:[9,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[3,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[4,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[5,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Hpspectre.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectc.java:[19,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[3,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[4,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/LoginTestWithLogging.java:[10,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[5,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[6,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[11,59] cannot find symbol
+  symbol: class ITestListener
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[14,33] cannot find symbol
+  symbol:   class ITestResult
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[24,35] cannot find symbol
+  symbol:   class ITestResult
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[29,35] cannot find symbol
+  symbol:   class ITestResult
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[39,35] cannot find symbol
+  symbol:   class ITestResult
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[44,60] cannot find symbol
+  symbol:   class ITestResult
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[49,45] cannot find symbol
+  symbol:   class ITestResult
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[54,29] cannot find symbol
+  symbol:   class ITestContext
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[59,30] cannot find symbol
+  symbol:   class ITestContext
+  location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Listproducts.java:[6,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[5,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[6,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[9,55] cannot find symbol
+  symbol: class ITestListener
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[12,30] cannot find symbol
+  symbol:   class ITestContext
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[21,29] cannot find symbol
+  symbol:   class ITestContext
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[26,60] cannot find symbol
+  symbol:   class ITestResult
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[32,45] cannot find symbol
+  symbol:   class ITestResult
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[38,35] cannot find symbol
+  symbol:   class ITestResult
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[47,35] cannot find symbol
+  symbol:   class ITestResult
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[56,33] cannot find symbol
+  symbol:   class ITestResult
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[65,35] cannot find symbol
+  symbol:   class ITestResult
+  location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/App.java:[16,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Appleicam.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[23,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[24,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[25,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Desktoptry.java:[6,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[9,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[10,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[73,27] cannot find symbol
+  symbol:   class ITestResult
+  location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[5,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[6,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[7,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[11,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[12,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[13,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[14,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[15,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[16,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[104,36] cannot find symbol
+  symbol:   class ITestResult
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[24,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[25,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[26,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[27,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[28,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[66,44] cannot find symbol
+  symbol:   class ITestResult
+  location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Newaddress.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/ExtentReportExample.java:[9,38] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/ExtentReportExample.java:[10,38] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/ExtentReportExample.java:[11,38] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/IRCTC_sample.java:[24,2] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.IRCTC_sample
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[16,11] cannot find symbol
+  symbol:   class BeforeTest
+  location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[25,11] cannot find symbol
+  symbol:   class Test
+  location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[40,11] cannot find symbol
+  symbol:   class Test
+  location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[51,11] cannot find symbol
+  symbol:   class Test
+  location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectc.java:[26,2] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.Irectc
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[18,10] cannot find symbol
+  symbol:   class BeforeSuite
+  location: class letsshop.Basesetup
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[26,10] cannot find symbol
+  symbol:   class AfterSuite
+  location: class letsshop.Basesetup
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/LoginTestWithLogging.java:[18,14] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.LoginTestWithLogging
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/App.java:[20,10] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.App
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[38,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class SeleniumAutomation.SeleniumAutomation.Extentreport
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[62,6] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.Extentreport
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[307,6] cannot find symbol
+  symbol:   class AfterClass
+  location: class SeleniumAutomation.SeleniumAutomation.Extentreport
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Desktoptry.java:[10,10] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.Desktoptry
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[31,2] cannot find symbol
+  symbol:   class BeforeTest
+  location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[71,2] cannot find symbol
+  symbol:   class AfterMethod
+  location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[86,2] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[93,2] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[29,10] cannot find symbol
+  symbol:   class BeforeTest
+  location: class Project.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[55,10] cannot find symbol
+  symbol:   class Test
+  location: class Project.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[117,10] cannot find symbol
+  symbol:   class Test
+  location: class Project.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[46,11] cannot find symbol
+  symbol:   class BeforeTest
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[102,11] cannot find symbol
+  symbol:   class AfterMethod
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[135,11] cannot find symbol
+  symbol:   class Test
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[153,11] cannot find symbol
+  symbol:   class Test
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[169,11] cannot find symbol
+  symbol:   class Test
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[180,11] cannot find symbol
+  symbol:   class Test
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[192,11] cannot find symbol
+  symbol:   class Test
+  location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[45,18] cannot find symbol
+  symbol:   class BeforeTest
+  location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[64,18] cannot find symbol
+  symbol:   class AfterTest
+  location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[92,10] cannot find symbol
+  symbol:   class Test
+  location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.556 s
+[INFO] Finished at: 2024-09-18T23:25:24+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project SeleniumAutomation: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/IRCTC_sample.java:[20,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Loginfile.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Drivermanager.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Drivermanager.java:[9,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[3,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[4,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[5,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Hpspectre.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectc.java:[19,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[3,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[4,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/LoginTestWithLogging.java:[10,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[5,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[6,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[11,59] cannot find symbol
+[ERROR]   symbol: class ITestListener
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[14,33] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[24,35] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[29,35] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[39,35] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[44,60] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[49,45] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[54,29] cannot find symbol
+[ERROR]   symbol:   class ITestContext
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/com/listeners/TestNGListeners.java:[59,30] cannot find symbol
+[ERROR]   symbol:   class ITestContext
+[ERROR]   location: class com.listeners.TestNGListeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Listproducts.java:[6,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[5,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[6,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[9,55] cannot find symbol
+[ERROR]   symbol: class ITestListener
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[12,30] cannot find symbol
+[ERROR]   symbol:   class ITestContext
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[21,29] cannot find symbol
+[ERROR]   symbol:   class ITestContext
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[26,60] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[32,45] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[38,35] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[47,35] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[56,33] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Listeners.java:[65,35] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class Sampleletshop.Listeners
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/App.java:[16,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Appleicam.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[23,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[24,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[25,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Desktoptry.java:[6,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[9,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[10,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[73,27] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[5,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[6,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[7,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[8,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[11,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[12,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[13,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[14,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[15,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[16,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[104,36] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[24,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[25,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[26,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[27,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[28,30] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[66,44] cannot find symbol
+[ERROR]   symbol:   class ITestResult
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Newaddress.java:[7,18] package org.testng does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/ExtentReportExample.java:[9,38] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/ExtentReportExample.java:[10,38] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/ExtentReportExample.java:[11,38] package org.testng.annotations does not exist
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/IRCTC_sample.java:[24,2] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.IRCTC_sample
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[16,11] cannot find symbol
+[ERROR]   symbol:   class BeforeTest
+[ERROR]   location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[25,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[40,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Sampleletshop/Mainclass.java:[51,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class Sampleletshop.Mainclass
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectc.java:[26,2] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Irectc
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[18,10] cannot find symbol
+[ERROR]   symbol:   class BeforeSuite
+[ERROR]   location: class letsshop.Basesetup
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Basesetup.java:[26,10] cannot find symbol
+[ERROR]   symbol:   class AfterSuite
+[ERROR]   location: class letsshop.Basesetup
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/LoginTestWithLogging.java:[18,14] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.LoginTestWithLogging
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/App.java:[20,10] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.App
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[38,6] cannot find symbol
+[ERROR]   symbol:   class BeforeClass
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Extentreport
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[62,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Extentreport
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Extentreport.java:[307,6] cannot find symbol
+[ERROR]   symbol:   class AfterClass
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Extentreport
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Desktoptry.java:[10,10] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Desktoptry
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[31,2] cannot find symbol
+[ERROR]   symbol:   class BeforeTest
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[71,2] cannot find symbol
+[ERROR]   symbol:   class AfterMethod
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[86,2] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Report.java:[93,2] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Report
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[29,10] cannot find symbol
+[ERROR]   symbol:   class BeforeTest
+[ERROR]   location: class Project.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[55,10] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class Project.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/Project/Mainfile.java:[117,10] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class Project.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[46,11] cannot find symbol
+[ERROR]   symbol:   class BeforeTest
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[102,11] cannot find symbol
+[ERROR]   symbol:   class AfterMethod
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[135,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[153,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[169,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[180,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/letsshop/Mainfile.java:[192,11] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class letsshop.Mainfile
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[45,18] cannot find symbol
+[ERROR]   symbol:   class BeforeTest
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[64,18] cannot find symbol
+[ERROR]   symbol:   class AfterTest
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] /C:/Users/c.JERVIN/eclipse-workspace/SeleniumAutomation/src/main/java/SeleniumAutomation/SeleniumAutomation/Irectcedge.java:[92,10] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class SeleniumAutomation.SeleniumAutomation.Irectcedge
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

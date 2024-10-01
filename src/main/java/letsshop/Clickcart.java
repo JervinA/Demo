@@ -13,6 +13,7 @@ public class Clickcart {
 		 PageFactory.initElements(driver, this);
 	}
 	 
+	// By Cart=By.xpath("/html/body/app-root/app-dashboard/app-");
 	 By Cart=By.xpath("/html/body/app-root/app-dashboard/app-sidebar/nav/ul/li[4]/button");
 	 
 	 public void opencart()

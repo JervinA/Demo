@@ -12,6 +12,11 @@ public class TestNGListeners extends Testutils implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
+		try {
+			takeScreenshot();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 	}
 

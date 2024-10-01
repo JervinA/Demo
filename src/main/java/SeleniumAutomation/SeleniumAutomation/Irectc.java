@@ -3,7 +3,6 @@ package SeleniumAutomation.SeleniumAutomation;
 import java.io.File;
 import java.io.IOException;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -11,7 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
@@ -25,14 +24,14 @@ public class Irectc {
 	
 public static void Booking() throws InterruptedException, IOException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver-win64\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+	System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver-win64\\msedgedriver.exe");
+	WebDriver driver = new EdgeDriver();
 		driver.get("https://www.irctc.co.in/nget/train-search");
 //		driver.manage().window().maximize();
 		Thread.sleep(40000);
 		
-		Alert Prompt = driver.switchTo().alert();
-		Prompt.dismiss();
+/*		Alert Prompt = driver.switchTo().alert();
+		Prompt.dismiss();*/
 		
 		WebElement line=driver.findElement(By.xpath("/html/body/app-root/app-home/div[1]/app-header/div[1]/div[2]/a/i"));
 		line.click();
@@ -222,6 +221,8 @@ public static void Booking() throws InterruptedException, IOException {
 		 File file1=screenshot1.getScreenshotAs(OutputType.FILE);
 		 File destination1=new File("F:\\Screenshots\\IRCTC\\screenshots1.jpeg");
 		 FileHandler.copy(file1, destination1);
+		 
+		 
 		 
 	
 }

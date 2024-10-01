@@ -31,8 +31,8 @@ public class Nokialumina extends Basetest {
 	By address1=By.xpath("//input[@id='BillingNewAddress_Address1']");
 	By postalcode=By.xpath("//input[@id='BillingNewAddress_ZipPostalCode']");
 	By phnumber=By.xpath("//input[@id='BillingNewAddress_PhoneNumber']");
-	By continuebutton1=By.xpath("(//button[@type='button'])[5]");
-	By continuebutton2=By.xpath("(//button[@type='button'])[10]");
+	By continuebutton1=By.xpath("//button[@class='button-1 new-address-next-step-button']");
+	By continuebutton2=By.xpath("//*[@class='button-1 shipping-method-next-step-button']");
 	By continuebutton3=By.xpath("(//button[@type='button'])[11]");
 	By continuebutton4=By.xpath("(//button[@type='button'])[12]");
 	By confirm=By.xpath("//button[@class='button-1 confirm-order-next-step-button']");
@@ -79,24 +79,32 @@ public class Nokialumina extends Basetest {
 	
 	public void enterFirstname() throws InterruptedException
 	{
-		try {
-		if(!driver.findElements(firstname).isEmpty())
+		if(driver.findElement(firstname).isDisplayed())
 		{
+			System.out.println("Entering firstname");
 			driver.findElement(firstname).sendKeys("Jervin");
+			driver.findElement(lastname).clear();
+			driver.findElement(lastname).sendKeys("c");
+			driver.findElement(email).clear();
+			driver.findElement(email).sendKeys("jervinit120@gmail.com");
+			driver.findElement(country).click();
+			Select filesselection=new Select(driver.findElement(By.xpath("//select[@id='BillingNewAddress_CountryId']")));
+			filesselection.selectByIndex(193);
+			JavascriptExecutor jss=(JavascriptExecutor)driver;
+			 jss.executeScript("window.scrollBy(0,300)","" );
+			 driver.findElement(city).sendKeys("Coimbatore");
+			 driver.findElement(address1).sendKeys("townhall");
+			 driver.findElement(postalcode).sendKeys("641041");
+			 driver.findElement(phnumber).sendKeys("6380886760");
 		}
-		else {
-			Thread.sleep(5000);
-			driver.findElement(delete).click();
-		}
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		else
+		{
+			System.out.println("moving to continue");
 		}
 		
-//		driver.findElement(firstname).clear();
-	//	driver.findElement(firstname).sendKeys("Jervin");
 	}
 	
-	public void enterlastname()
+/*	public void enterlastname()
 	{
 		driver.findElement(firstname).sendKeys("Jervin");
 		driver.findElement(lastname).clear();
@@ -138,7 +146,7 @@ public class Nokialumina extends Basetest {
 	public void enternumber()
 	{
 		driver.findElement(phnumber).sendKeys("6380886760");
-	}
+	}  */
 	
 	public void selectcontinuebutton1()
 	{
